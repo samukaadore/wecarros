@@ -6,7 +6,6 @@ import { Link, useNavigate } from 'react-router-dom'
 import {useForm} from 'react-hook-form'
 import {z} from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod'
-import { MdPassword } from 'react-icons/md'
 import toast from 'react-hot-toast'
 
 import { signInWithEmailAndPassword, signOut } from 'firebase/auth'

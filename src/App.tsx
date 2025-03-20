@@ -7,7 +7,7 @@ import { New } from "./pages/dashboard/new"
 import { CarDetail } from "./pages/car"
 
 import { Layout } from "./components/layout"
-import { Private } from "./routes/private"
+import { Private } from "./routes/Private"
 
 const router = createBrowserRouter([
   {
